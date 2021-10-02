@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="actionsheet" href="action.js">
     <title>Document</title>
 </head>
 <body>
     <section>
     <h2>Histórico de mensagens</h2>
-        <div class="container" name="histórico">
-            <div class="respostas" name="histórico"></div>
+        <div class="container" id="histórico">
+            <!-- <div id="hist1"></div>
+            <div id="hist2"></div>
+            <div id="hist3"></div> -->
         </div>
+
     <div class="textbox">
-        <textarea id="quadradoDeTexto" placeholder= "Digite a mensagem...">
+        <textarea id="AreaDeTexto" placeholder= "Digite a mensagem...">
         </textarea>
-        <button>Enviar</button>
+        <button id="Enviar" type="submit" >Enviar</button>
     </div>
     </section>
+
+    <script src="action.js"></script>
 </body>
 </html>
